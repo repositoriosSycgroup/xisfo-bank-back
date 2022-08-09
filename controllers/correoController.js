@@ -17,7 +17,7 @@ const envioCorreo = (req = request, resp = response) => {
   const opciones = {
     from: 'Solicitud de registro en xisfo',
     subject: 'Hola! Me he contactado desde la pagina de xisfo, estos son mis datos!',
-    to: 'info@xisfo.com',
+    to: 'info@sycgroup.co',
     text:body.mensaje
   };
 
